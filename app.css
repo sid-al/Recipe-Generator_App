@@ -145,6 +145,11 @@ body{
   background: var(--light-grey) ;
 }
 
+/* meal details */
+.meal-details{
+  position: fixed;
+  top: 50%;
+}
 /* media queries */
 @media screen and (min-width: 600px){
   .meal-search-box{
