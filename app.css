@@ -189,6 +189,14 @@ body{
   letter-spacing: 1px;
   padding: 1rem;
 }
+.recipe-category{
+  background: var(--blue-awsome);
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  padding:0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
 
 /* media queries */
 @media screen and (min-width: 600px){
