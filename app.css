@@ -68,3 +68,14 @@ body{
 .search-btn{
   width: 100%;
 }
+
+.search-control{
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: 0;
+  border: 1px solid var(--light-grey);
+  color: var(--blue-awsome);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
