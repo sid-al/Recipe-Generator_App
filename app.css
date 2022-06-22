@@ -154,3 +154,13 @@ body{
   }
 }
 
+@media screen and (min-width:768){
+  #meal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2rem
+  }
+  
+}
+
+
