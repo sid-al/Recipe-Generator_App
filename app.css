@@ -12,3 +12,10 @@
   --blue-awsome : #1167b1;
   --light-grey : #D3D3D3;
 }
+
+body{
+  font-size: 300;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-family: 'Quicksand', sans-serif;
+}
