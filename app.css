@@ -198,6 +198,18 @@ body{
   border-radius: 0.3rem;
 }
 
+.recipe-instruct{
+  padding: 1rem 0;
+}
+.recipe-meal-img img{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
 /* media queries */
 @media screen and (min-width: 600px){
   .meal-search-box{
