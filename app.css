@@ -99,3 +99,11 @@ body{
   background: var(--light-grey);
 }
 
+.meal-result{
+  margin: 4rem;
+}
+
+#meal{
+  margin: 2.4rem 0;
+}
+
