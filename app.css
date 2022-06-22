@@ -214,7 +214,9 @@ body{
   font-weight: 700;
   transition: all 0.4s linear;
 }
-
+.recipe-link a:hover{
+  opacity: 0.8;
+}
 /* media queries */
 @media screen and (min-width: 600px){
   .meal-search-box{
