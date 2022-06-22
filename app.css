@@ -107,3 +107,14 @@ body{
   margin: 2.4rem 0;
 }
 
+.meal-iteam{
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px -12px rgb(0,0,0,0.79);
+  margin: 2rem 0;
+}
+
+.meal-img img{
+  width: 100%;
+  display: block;
+}
