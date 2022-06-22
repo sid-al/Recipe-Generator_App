@@ -118,3 +118,7 @@ body{
   width: 100%;
   display: block;
 }
+
+.meal-name{
+  padding: 1.5rem 0.5rem;
+}
