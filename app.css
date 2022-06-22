@@ -79,3 +79,6 @@ body{
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
+.search-control::placeholder{
+  color: var(--blue-awsome);
+}
