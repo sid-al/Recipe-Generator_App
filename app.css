@@ -185,6 +185,10 @@ body{
   justify-content: center;
   opacity: 0.9;
 }
+.recipe-title{
+  letter-spacing: 1px;
+  padding: 1rem;
+}
 
 /* media queries */
 @media screen and (min-width: 600px){
