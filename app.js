@@ -46,4 +46,7 @@ function getMealList(){
   });
 }
 
-
+function getMealRecipe(e) {
+  e.preventDefault();
+  console.log(e.target);
+}
