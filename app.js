@@ -39,7 +39,7 @@ function getMealList(){
       });
       
     }
-    
+    mealList.innerHTML = html; 
   });
 }
 
