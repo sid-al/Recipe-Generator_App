@@ -1,10 +1,27 @@
 // DOM getting HTML elements
 
-const searchBtn = document.querySelector('#search-btn');
+document.addEventListener('DOMContentLoaded', () => {
+  getMealList();
+});
+
+const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal')
 const mealDetailsContent = document.querySelector("meal-details-content")
 const recipeCloseBtn = document.getElementById('recipe-close-btn')
 
 // event listners
-searchBtn.addEventListener('click', renderMeal)
+
+searchBtn.addEventListener('click', getMealList)
+// getMealList that matches the search input
+
+function getMealList(){
+  let searchInputText = document.getElementById('search-input').value.trim();
+  console.log(searchInputText);
+  fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i')
+  .then(resp => resp.json())
+  .then (data => {
+    console.log(data)
+  })
+}
+
 
