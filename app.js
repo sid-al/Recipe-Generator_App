@@ -27,7 +27,7 @@ function getMealList(){
         html+= `
         <div class = "meal-item" data-id = "${meal.idMeal}">
             <div class = "meal-img">
-              <img src = "/images/food.jpg" alt = "food">
+              <img src = "${meal.strMealThumb}" alt = "food">
             </div>
             <div class = "meal-name">
               <h3>PanCake</h3>
