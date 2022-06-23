@@ -20,7 +20,9 @@ function getMealList(){
   .then(resp => resp.json())
   .then (data => {
     let html = "";
-    
+    if(data.meals){
+      
+    }
   })
 }
 
