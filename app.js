@@ -16,13 +16,22 @@ searchBtn.addEventListener('click', getMealList)
 
 function getMealList(){
   let searchInputText = document.getElementById('search-input').value.trim();
-  fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i')
+  fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputText}`)
   .then(resp => resp.json())
   .then (data => {
+    if(data)
+    console.log(data);
     let html = "";
-    if(data.meals){
+    if (data.meals) {
+      data.meals.forEach(meal => {
+        html+= `
+        
+        
+        `
+      });
       
     }
+    
   })
 }
 
