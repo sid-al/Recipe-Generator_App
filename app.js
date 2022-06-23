@@ -40,6 +40,7 @@ function getMealList(){
       
     }else{
       html = "Opps, could not find any meal recipe!";
+      mealList.classList.add('notFound');
     }
      
   });
