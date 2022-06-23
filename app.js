@@ -38,8 +38,10 @@ function getMealList(){
         `;
       });
       
+    }else{
+      html = "Opps, could not find any meal recipe!";
     }
-    mealList.innerHTML = html; 
+     
   });
 }
 
