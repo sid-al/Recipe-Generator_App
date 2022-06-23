@@ -35,12 +35,12 @@ function getMealList(){
             </div>
         </div>
         
-        `
+        `;
       });
       
     }
     
-  })
+  });
 }
 
 
