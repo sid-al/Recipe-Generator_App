@@ -16,11 +16,11 @@ searchBtn.addEventListener('click', getMealList)
 
 function getMealList(){
   let searchInputText = document.getElementById('search-input').value.trim();
-  console.log(searchInputText);
   fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i')
   .then(resp => resp.json())
   .then (data => {
-    console.log(data)
+    let html = "";
+    
   })
 }
 
