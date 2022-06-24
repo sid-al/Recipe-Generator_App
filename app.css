@@ -14,8 +14,9 @@
 }
 
 body{
-  font-size: 300;
+  font-size: 500;
   font-size: 1.05rem;
+  font-weight: 600;
   line-height: 1.6;
   font-family: 'Quicksand', sans-serif;
 }
@@ -261,6 +262,7 @@ a{
 	color:var(--blue-awsome);
 	text-decoration:none
 }
+
 
 a:hover,a:focus{
 	color:var(--blue-awsome);
