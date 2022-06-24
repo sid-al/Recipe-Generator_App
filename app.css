@@ -20,6 +20,28 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
+/* hero background image */
+.bgimage {
+  height:100vh;
+  background: url('images/books.jpg');
+  background-size:cover;
+  position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 /*  */
 .btn{
   font-family: inherit;
@@ -40,6 +62,7 @@ body{
 /* styling the container */
 .container{
   min-height: 100vh;
+
 }
 
 .books-wrapper{
